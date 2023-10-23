@@ -1,7 +1,7 @@
-.fusion-ui-pro-table .fusion-ui-pro-table-body .fusion-ui-pro-table-action-bar:first-child{
+.fusion-ui-pro-table .fusion-ui-pro-table-body .fusion-ui-pro-table-action-bar> div:first-child {
   flex: 1;
 }
 
-.fusion-ui-pro-table .fusion-ui-pro-table-body .fusion-ui-pro-table-action-bar:first-child >.next-box{
+.fusion-ui-pro-table .fusion-ui-pro-table-body .fusion-ui-pro-table-action-bar> div:first-child> .next-box{
   flex: 1;
 }
