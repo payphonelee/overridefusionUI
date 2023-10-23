@@ -1,0 +1,25 @@
+{
+  "name": "overrideFusionUI",
+  "version": "0.1.1",
+  "description": "overrideFusionUI",
+  "keywords": [
+    "override",
+    "fusionUI"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:payphonelee/overridefusionUI.git"
+  },
+  "main": "index.js",
+  "author": "payphonelee <payphone.cloud7@gmail.com>",
+  "scripts": {
+    "pub": "npm publish --registry https://registry.npmjs.org",
+    "pub:patch": "npm version patch && npm run pub",
+    "pub:minor": "npm version minor && npm run pub",
+    "pub:major": "npm version major && npm run pub"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^0.4.11"
+  }
+}
