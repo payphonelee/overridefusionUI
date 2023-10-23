@@ -1,0 +1,7 @@
+.fusion-ui-pro-table .fusion-ui-pro-table-body .fusion-ui-pro-table-action-bar:first-child{
+  flex: 1;
+}
+
+.fusion-ui-pro-table .fusion-ui-pro-table-body .fusion-ui-pro-table-action-bar:first-child >.next-box{
+  flex: 1;
+}
